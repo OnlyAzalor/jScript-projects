@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-image: url('./Resources/Wallpaper.jpeg');
+    background-size: cover;
+}
+
+
+#board {
+    background-color: black;
+    margin-top: 150px;
+    border-radius: 10px;
+    border-color: white;
+
+}
+
+
+#logo {
+    position: absolute;
+    top: 0px;             /* distance from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    height: 120px;
+    object-fit: contain;
+    z-index: 1000;         /* make sure it stays above other elements */
+}
+
+.game-footer {
+    background-color: #222;         /* Dark background - change as needed */
+    color: #f2f2f2;                 /* Light text for contrast */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    position: fixed;
+    left: 200px;
+    bottom: 0;
+    width: 80%;
+    border-top: 2px solid #444;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-family: 'Segoe UI', sans-serif;
+}
